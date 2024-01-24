@@ -1,0 +1,25 @@
+
+experiment: data_size
+dataset: eurlex
+n_rounds: 
+  - 1000
+  - 2000
+  - 4000
+  - 8000
+  - 16000
+dim_context: 5
+dim_action_context: 5
+n_unique_action: 10
+slate_size: 8
+behavior_tau: -1.0
+behavior_epsilon: 0.1
+evaluation_epsilon: 0.3
+reward_type: continuous
+reward_function_type: additive
+reward_std: 0.10
+start_random_state: 0
+n_random_state: 100
+base_random_state: 12345
+use_base_random_state: True
+target_param: n_rounds
+evaluation: on_policy

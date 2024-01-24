@@ -1,0 +1,11 @@
+batch_size: 32
+learning_rate: 1e-5
+abstraction_type: discrete
+abstraction_dimension: 100
+beta: 
+  - 0.01
+  - 0.1
+  - 1.0
+  - 10.0 
+report_results_for_all_beta: True
+device: cpu

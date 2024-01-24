@@ -1,0 +1,9 @@
+
+experiment: data_size
+dataset: eurlex
+baseline_type: ips
+reward_function_types:
+  - additive
+  - discount
+  - minmax
+n_random_state: 50
